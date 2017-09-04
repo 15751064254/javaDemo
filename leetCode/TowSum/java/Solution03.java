@@ -19,8 +19,8 @@ public class Solution03{
 
 
   public static void main(String[] args){
-    int[] nums = new int[] {2, 7, 11, 15};
-    int target = 9;
+    int[] nums = new int[] {3, 2, 4};
+    int target = 6;
 
     int[] res = twoSum(nums, target);
     System.out.printf("%s = %s + %s \n", target, nums[res[0]], nums[res[1]]);
