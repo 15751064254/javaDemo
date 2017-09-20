@@ -14,7 +14,7 @@ public class MinorGC {
     allocation4 = new byte[4 * _1MB];
   }
 
-  public static void main(String[] args) {
+  public static void main(String args[]) {
     testAllocation();
   }
 }
