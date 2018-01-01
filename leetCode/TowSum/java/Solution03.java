@@ -23,6 +23,18 @@ public class Solution03{
     int target = 6;
 
     int[] res = twoSum(nums, target);
+    
+    StringBuffer stringBuffer = new StringBuffer();
+    int length = nums.length;
+    for(int i = 0; i < length; i++){
+        stringBuffer.append(nums[i]);
+        if(i != length - 1){
+            stringBuffer.append(",");
+        }
+    }
+
+    System.out.printf("nums = { %s } \n", stringBuffer);
+
     System.out.printf("%s = %s + %s \n", target, nums[res[0]], nums[res[1]]);
     System.out.printf("return [%s, %s] \n", res[0], res[1]);
 
