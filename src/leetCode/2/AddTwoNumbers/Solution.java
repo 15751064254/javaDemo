@@ -27,7 +27,6 @@ public class Solution {
         return dummyHead.next;
     }
 
-    public static void main(string[] args) {
 
     }
 
